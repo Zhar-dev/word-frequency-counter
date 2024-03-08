@@ -1,0 +1,61 @@
+/* Style the body and center the form */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to right, #425c75, #4ca1af);
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+/* Style the form container */
+form {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 50%;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style form labels and inputs */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+button,
+textarea,
+select,
+input[type="number"] {
+    font-family: 'Poppins', sans-serif;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
