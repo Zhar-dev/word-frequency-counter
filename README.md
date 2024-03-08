@@ -1,2 +1,4 @@
 # word-frequency-counter
-bruh
+Members:
+- Al-nizar Wahab
+- Christian Clavite
